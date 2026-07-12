@@ -1,0 +1,11 @@
+:root {
+  font-size: 16px;
+
+  @each $colorName, $colorPalette in $colors {
+    @each $key, $value in $colorPalette {
+      $keyname: "--" + $colorName + "-" + $key;
+      #{$keyname}: #{$value}
+    }
+    
+  }
+}
