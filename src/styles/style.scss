@@ -1,4 +1,7 @@
 :root {
+	--white: #ffffff;
+  --black: #000000;
+
   font-size: 16px;
 
   @each $colorName, $colorPalette in $colors {
@@ -60,6 +63,8 @@ table {
 
 html, body{
   height: 100%;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 #app {
