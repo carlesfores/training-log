@@ -1,5 +1,4 @@
 <script setup>
-import Action from "@/components/action.vue";
 </script>
 
 <template>

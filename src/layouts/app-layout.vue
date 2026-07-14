@@ -1,13 +1,13 @@
 <script setup>
-import EntityHeader from "@/components/entity-header.vue";
-import EntityFooter from "@/components/entity-footer.vue";
+import AppHeader from "@/components/app-header.vue";
+import AppFooter from "@/components/app-footer.vue";
 </script>
 
 <template>
   <div class="app-layout">
-    <entity-header />
+    <app-header />
     <slot name="content"></slot>
-    <entity-footer />
+    <app-footer />
   </div>
 </template>
 
