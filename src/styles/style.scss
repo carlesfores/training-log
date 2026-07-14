@@ -3,6 +3,7 @@
   --black: #000000;
 
   font-size: 16px;
+  font-family: "Lato", sans-serif;
 
   @each $colorName, $colorPalette in $colors {
     @each $key, $value in $colorPalette {
