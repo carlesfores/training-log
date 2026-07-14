@@ -1,13 +1,13 @@
 <script setup>
-import EntityLayout from "@/components/entity-layout.vue";
+import AppLayout from "@/layouts/app-layout.vue";
 </script>
 
 <template>
-  <entity-layout>
+  <app-layout>
     <template #content>
-      content
+      <router-view />
     </template>
-  </entity-layout>
+  </app-layout>
 </template>
 
 <style lang="scss" scoped></style>
