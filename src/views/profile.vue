@@ -5,14 +5,14 @@ import viewLayout from "@/layouts/view-layout.vue";
 
 <template>
   <view-layout>
-    <div class="home">
-      home view
+    <div class="profile">
+      profile view
     </div>
   </view-layout>
 </template>
 
 <style lang="scss" scoped>
-.home {
+.profile {
   height: 100%;
 }
 </style>
